@@ -1,0 +1,23 @@
+{
+  "name": "TelegramBot",
+  "version": "2.0.0",
+  "description": "Разработка TelegramBot CMS.",
+  "main": "prog.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "build": "pkg index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Beenlord/TelegramBot.git"
+  },
+  "author": "Vovikko",
+  "license": "ISC",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.57.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
